@@ -6,7 +6,7 @@ pool:
 
 variables:
   subscription: Visual Studio Enterprise(8fe01723-c68a-4842-b6b6-341e5e14be9f)
-  resourceGroup: resourcegroup-tfstate
+  resourceGroup: deji-tfstate
   storageAccount: terraformtfstateskipp
   container: tfstate
   tfstateFile: terraform.tfstate
