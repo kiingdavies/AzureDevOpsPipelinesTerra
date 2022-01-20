@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  subscription: Visual Studio Enterprise(8fe01723-c68a-4842-b6b6-341e5e14be9f)
+  subscription: Visual Studio Enterprise Subscription(8fe01723-c68a-4842-b6b6-341e5e14be9f)
   resourceGroup: deji-tfstate
   storageAccount: terraformtfstateskippd
   container: tfstate
