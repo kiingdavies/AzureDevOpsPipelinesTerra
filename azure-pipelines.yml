@@ -1,5 +1,5 @@
-# trigger:
-# - master
+trigger:
+- master
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -7,7 +7,7 @@ pool:
 variables:
   subscription: Visual Studio Enterprise(8fe01723-c68a-4842-b6b6-341e5e14be9f)
   resourceGroup: deji-tfstate
-  storageAccount: terraformtfstateskipp
+  storageAccount: terraformtfstateskippd
   container: tfstate
   tfstateFile: terraform.tfstate
   anyTfChanges: false
